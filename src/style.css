@@ -1,3 +1,6 @@
+:root {
+  --primary-color: #5e157b;
+}
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -6,13 +9,13 @@ h1 {
   font-weight: 700;
   line-height: 98px;
   text-align: center;
-  color: white;
+  color: var(--primary-color);
   padding-top: 47px;
 }
 p {
   font-size: 24px;
   text-align: center;
-  color: white;
+  color: var(--primary-color);
   padding-bottom: 46px;
 }
 
@@ -21,5 +24,14 @@ footer {
 }
 
 .mainheading {
-  background-color: gray;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(222, 168, 248) 0%,
+    rgb(168, 222, 248) 21.8%,
+    rgb(189, 250, 205) 35.6%,
+    rgb(243, 250, 189) 52.9%,
+    rgb(250, 227, 189) 66.8%,
+    rgb(248, 172, 172) 90%,
+    rgb(254, 211, 252) 99.7%
+  );
 }
