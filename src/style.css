@@ -46,7 +46,6 @@ footer {
 .photoone {
   display: block;
   margin: 0 auto;
-  border-radius: 12px;
   height: 260px;
   padding-bottom: 40px;
 }
@@ -61,5 +60,8 @@ footer {
   }
   .phototable {
     padding: 20px;
+  }
+  .photoone {
+    padding-bottom: 20px;
   }
 }
