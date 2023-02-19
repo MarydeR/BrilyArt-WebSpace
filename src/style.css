@@ -17,6 +17,7 @@ p {
   text-align: center;
   color: var(--primary-color);
   padding-bottom: 46px;
+  margin-bottom: 0;
 }
 
 footer {
@@ -34,4 +35,21 @@ footer {
     rgb(248, 172, 172) 90%,
     rgb(254, 211, 252) 99.7%
   );
+}
+.phototable {
+  padding: 100px 140px;
+}
+
+.photohomepg {
+  width: 560px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+  p {
+    line-height: 1.3;
+  }
 }
