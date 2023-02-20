@@ -54,6 +54,11 @@ footer {
   width: 100%;
 }
 
+.pagesheading h1 {
+  padding-top: 32px;
+  margin: 0 auto;
+}
+
 @media (max-width: 820px) {
   h1 {
     font-size: 50px;
