@@ -40,13 +40,10 @@ footer {
   padding: 100px;
 }
 
-.photocol {
-  padding: 20px;
-}
-
 .photoone {
   display: block;
   margin: 0 auto;
+  padding: 20px;
 }
 .threeimgrow {
   width: 100%;
@@ -73,7 +70,6 @@ footer {
     padding: 20px;
   }
   .photoone {
-    padding-bottom: 20px;
     height: 100%;
   }
 }
