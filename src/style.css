@@ -53,12 +53,31 @@ footer {
   padding-top: 32px;
   margin: 0 auto;
 }
-.tutorialsection h2 {
-  font-size: 36px;
-  line-height: 49px;
+.tutorialsection {
+  margin: 0 auto;
 }
 
-@media (max-width: 820px) {
+.tutophoto {
+  display: block;
+  margin: 0 auto;
+}
+
+.tutorialcontent {
+  max-width: 640px;
+  padding-top: 42px;
+  margin: 0 auto;
+}
+.tutorialcontent h2 {
+  font-size: 36px;
+  line-height: 49px;
+  text-align: left;
+}
+.tutorialcontent li {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media (max-width: 992px) {
   h1 {
     font-size: 50px;
     line-height: 1.2;
