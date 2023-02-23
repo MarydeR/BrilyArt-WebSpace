@@ -1,5 +1,7 @@
 :root {
   --primary-color: #5e157b;
+  --secondary-color: #be85f7;
+  --normal-text-color: #272142;
 }
 body {
   font-family: "Nunito", sans-serif;
@@ -19,6 +21,13 @@ p {
   padding-bottom: 46px;
   margin-bottom: 0;
 }
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: var(--secondary-color);
+}
 
 footer {
   font-family: "Roboto", sans-serif;
@@ -36,8 +45,8 @@ footer {
     rgb(254, 211, 252) 99.7%
   );
 }
-.phototable {
-  padding: 100px;
+.contenttable {
+  padding-top: 100px;
 }
 
 .photoone {
@@ -67,6 +76,7 @@ footer {
   max-width: 640px;
   padding-top: 42px;
   margin: 0 auto;
+  color: var(--normal-text-color);
 }
 .tutorialcontent h2 {
   font-size: 36px;
@@ -78,6 +88,14 @@ footer {
   line-height: 30px;
 }
 
+.contactinfo a {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--normal-text-color);
+  text-decoration: none;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 50px;
@@ -86,8 +104,8 @@ footer {
   p {
     line-height: 1.3;
   }
-  .phototable {
-    padding: 20px;
+  .contenttable {
+    padding-top: 20px;
   }
   .photoone {
     height: 100%;
