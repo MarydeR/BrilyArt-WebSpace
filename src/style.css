@@ -3,6 +3,36 @@
   --secondary-color: #be85f7;
   --normal-text-color: #272142;
 }
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 10px 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--normal-text-color);
+}
+nav a:hover {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a {
+  color: var(--primary-color);
+  text-decoration: underline
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -97,6 +127,14 @@ footer {
 }
 
 @media (max-width: 992px) {
+
+  nav li{
+      margin-left: 10px;
+}
+  }
+  nav a {
+    font-size: 18px;
+  }
   h1 {
     font-size: 50px;
     line-height: 1.2;
