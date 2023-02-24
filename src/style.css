@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #5e157b;
+  --primary-color: #841bad;
   --secondary-color: #be85f7;
   --normal-text-color: #272142;
 }
 .logo {
-  max-height: 40px;
+  max-height: 50px;
 }
 nav {
   padding: 20px 0;
