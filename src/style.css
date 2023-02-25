@@ -2,6 +2,7 @@
   --primary-color: #841bad;
   --secondary-color: #be85f7;
   --normal-text-color: #272142;
+  --alt-bg-color: #f9f7fe;
 }
 .logo {
   max-height: 50px;
@@ -28,9 +29,10 @@ nav a:hover {
   transition: all 100ms ease-in-out;
 }
 
-nav li.active a {
+nav li.active a,
+footer i:hover {
   color: var(--primary-color);
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 body {
@@ -61,8 +63,33 @@ h3 {
 
 footer {
   font-family: "Roboto", sans-serif;
+  padding: 20px;
+  background-color: var(--alt-bg-color);
+}
+.socialicons a {
+  margin: 20px;
 }
 
+footer i {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px 0px;
+}
+
+footer p {
+  color: var(--normal-text-color);
+  font-size: 15px;
+  line-height: 16px;
+  padding: 20px 0px;
+}
+
+.open-sourced {
+  padding: 10px;
+}
+.open-sourced a {
+  color: var(--secondary-color);
+}
 .mainheading {
   background: radial-gradient(
     circle at 10% 20%,
@@ -127,11 +154,10 @@ footer {
 }
 
 @media (max-width: 992px) {
-
-  nav li{
-      margin-left: 10px;
-}
+  nav li {
+    margin-left: 10px;
   }
+
   nav a {
     font-size: 18px;
   }
